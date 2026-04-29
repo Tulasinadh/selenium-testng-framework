@@ -14,10 +14,10 @@ public class Config
 	public static String TakeScreenShot = "Yes";         // YES yes Yes NO (other than Yes it is not taken screen shots)
 	public static String IsConsoleErrorSave = "yes";  // Yes yes YES and NO
 	public static String IsAdjustMOuse = "Yes"; 		   // YES yes no NO
+
 	public static String ExecutionStartRow = "1";      // Any number (it must be equal or less than the Execution End row value)
 	public static String ExecutionEndRow = "2";      // Any number or n (IF we enter n, it indicates last row of the Data sheet) 
-	public static Integer[] SelectedRows ={4};            // 89,90,94,95,96,101,103,104,105 to execute for selected test cases, if it empty above ranges will work  
-
+	public static Integer[] SelectedRows ={1};            // 89,90,94,95,96,101,103,104,105 to execute for selected test cases, if it empty above ranges will work  
 	public static String ProductPriceCode = "Price_AT";   // Product Price code
 	public static String AddonPriceCode = "Addon_AT";	    // Add-on price code
 	public static String ShippingPriceCode = "shipping_AT";

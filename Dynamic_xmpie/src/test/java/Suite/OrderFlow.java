@@ -1864,5 +1864,29 @@ public class OrderFlow extends Commonclass
 		Object data[][] = Testutil.getData(datatable_suite1, "TestData");
 		return data;
 	} 
+	
+	/*
+	
+	@DataProvider(name = "testParameterData", parallel = false)
+	public static Object[][] testParameterData(Method method) throws Exception 
+	{
+	    initialize();
 
+	    Object[][] allData = Testutil.getData(datatable_suite1, "TestData");
+
+	    List<Object[]> filteredData = new ArrayList<>();
+
+	    for (Object[] row : allData) {
+
+	        // assuming RunFlag is last column
+	        String runFlag = row[row.length - 1].toString();
+
+	        if (runFlag.equalsIgnoreCase("Y")) {
+	            filteredData.add(row);
+	        }
+	    }
+
+	    return filteredData.toArray(new Object[0][]);
+	}
+	*/
 }
