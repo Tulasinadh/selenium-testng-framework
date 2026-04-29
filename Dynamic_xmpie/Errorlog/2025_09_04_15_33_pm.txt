@@ -1,0 +1,45 @@
+****** ****** Test Data Number --> 5.0******* *******
+Sept 04, 2025 3:33:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sept 04, 2025 3:33:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.155. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+**********ADMIN**********
+Admin Login done
+Tax is Enabled in store
+Currency Decimals is Set= 2
+Weight decimal is Set= 4
+Order Amount value is Set= 2
+Shipping Taxable was already Enabled
+General Settings as been saved successfully
+No action needed for Weight per Package checkbox.
+Shipping Settings as been saved sucessfully
+Biling is selected as Payment Method
+Shipping Address is NOT same as Billing Address is already in Enabled.
+Payment Settings as been saved sucessfully
+Clicked edit for quantity: 2.0
+No shipping weight
+Checkbox selected: false
+Product is not ACTIVE. No action taken.
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Base Pricing Settings as been Done
+Current Promotion Discount Toggle state (isSelected): false
+Promotion Discount Toggle is already in the desired state. No action taken.
+Admin Setup is Done
+**********USER**********
+Addon was not selected, now clicked.Both addon prices are same
+OrderFlow.IsBaseDiscountZero :true
+BasePriceIncrementValue :0
+Quantity: 2
+View Summary Both Quantitys are same 
+View Summary Both Item prices are same
+View Summary Both Sub totals Prices are same 
+View Summary Both Discount prices are same 
+View Summary Both Addon prices are same
+View Summary Both Total values are same 
+Shopping Cart Both Quantity are same
+Shopping Cart Both Item prices are same
+<---------- Shopping cart Both Total values are different ---------->1
+Actual total value is :$0.90
+Expected total value is :$121.88

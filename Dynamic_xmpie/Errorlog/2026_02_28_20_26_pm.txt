@@ -1,0 +1,91 @@
+****** ****** Test Data Number --> 36.0******* *******
+Feb 28, 2026 8:26:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 145
+Feb 28, 2026 8:26:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 145.0.7632.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+**********ADMIN**********
+Admin Login done
+Tax is Enabled in store
+Currency Decimals is Set= 3
+Weight decimal is Set= 2
+Order Amount value is Set= 3
+Shipping Taxable was already Disabled
+General Settings as been saved successfully
+No action needed for Weight per Package checkbox.
+Shipping Settings as been saved sucessfully
+Biling is selected as Payment Method
+Shipping Address is NOT same as Billing Address is already in Enabled.
+Payment Settings as been saved sucessfully
+Clicked edit for quantity: 5.0
+No shipping weight
+Checkbox selected: true
+Product is ACTIVE. Proceeding to turn it OFF...
+Product has been set to OFFLINE.
+*Product Alert ok working fine*
+*Product Home link pre-click *
+*Product Home link fine*
+Base Pricing Settings as been Done
+Current Promotion Discount Toggle state (isSelected): true
+DiscountPercentage is 'N' and toggle is ON. Turning it OFF...
+Promotion Discount Toggle has been turned OFF.
+Admin Setup is Done
+**********USER**********
+Addon was not selected, now clicked.Both addon prices are same
+OrderFlow.IsBaseDiscountZero :false
+BasePriceIncrementValue :0
+Quantity: 5
+View Summary Both Quantitys are same 
+View Summary Both Item prices are same
+View Summary Both Sub totals Prices are same 
+<------ View Summary Both Discount prices are different ------>1
+Actual Discount price is : -$1.235
+Expected Discount price is : -( $6.250 )
+View Summary Both Addon prices are same
+<------View Summary Both Total values are different ----->2
+Actual total value is :$47.825
+Expected total value is :$68.990
+Shopping Cart Both Quantity are same
+Shopping Cart Both Item prices are same
+<---------- Shopping cart Both Total values are different ---------->3
+Actual total value is :$47.825
+Expected total value is :$68.990
+As expected Same as Billing Add check box NOT selected successfully
+Actual Billg value is :
+Actual Shipping value is :38345 W.Ten Mile Rd
+Farmington Hills, Michigan, 78795
+Expected Billing Add :38345 W.Ten Mile Rd
+Farmington Hills, Michigan, 78795
+Expected Shippint Add :38345 W.Ten Mile Rd
+Farmington Hills, Michigan, 78795
+Order Checkout Both Quantity are same
+Order Checkout Both Item prices are same 
+<----------- Order Checkout Both SubTotals are different ---------->4
+ActualOCSubTotal : $47.825
+ExpectedAmount : $68.990
+<-------- Order Checkout Both Promotion discounts are different ---------->5
+ActualOCPromotionDiscount : $0.000
+ExpectedPromotionDiscount : $
+Order Checkout Both Shipping Amounts are same 
+Both Tax percentages are saeme 
+<---------- Order Checkout Both Tax amounts are different ------------->6
+ActualOCTaxAmount : $0.631
+ExpectedTaxAmount : $1.415
+Order Checkout Both handiling fee are same 
+<--------- Order Checkout Both GrandTotal Amounts are different ----------->7
+ActualOCTotal : $94.472
+ExpectedTotal : $184.180
+Cost Center option NOT displayed to user successfully
+Both Billing, Shipping Address are same in Review order page
+OrderNumber : 605
+<--------- Order Summary Page Both SubTotal Amounts are different ----------->8
+ActualSubtotalOs : $47.825
+ExpectedSubtotalOs : $68.990
+Both Shipping price are same in order Summary Page
+Both HandlingFee Amounts are same in order Summary Page
+Both Tax Percentages are same in order Summary Page
+<--------- Order Summary Page Both Tax Amounts are different ----------->9
+ActualTaxAmountOs : $0.631
+ExpectedTaxAmountOs : $1.415
+<--------- Order Summary Page Both Total Amounts are different ----------->10
+ActualTotalOs : $94.472
+ExpectedTotalOs : $184.180

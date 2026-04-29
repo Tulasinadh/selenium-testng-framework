@@ -1,0 +1,22 @@
+Test Data , Parameters , Page Name , Price Type , Expected Value , Actual Value , OrderNumber, Status, Comments
+1.0,2 Decimal point,Order Details Page,Subtotal,'$1.98,'$1.98,611,PASS
+1.0,2 Decimal point,Order Details Page,AddOns,'$0.45,'$0.45,611,PASS
+1.0,2 Decimal point,Order Details Page,Discount,'-$0.00,'-$0.00,611,PASS
+1.0,2 Decimal point,Order Details Page,Shipping,'$54.62,'$54.62,611,PASS
+1.0,2 Decimal point,Order Details Page,Handling Fee,'$2.25,'$2.25,611,PASS
+1.0,2 Decimal point,Order Details Page,Tax,'$4.66,'$4.66,611,PASS
+1.0,2 Decimal point,Order Details Page,Total,'$63.96,'$63.96,611,PASS
+2.0,3 Decimal point,Order Details Page,Subtotal,'$637.100,'$637.100,612,PASS
+2.0,3 Decimal point,Order Details Page,AddOns,'$61.550,'$61.550,612,PASS
+2.0,3 Decimal point,Order Details Page,Discount,'-$0.000,'-$0.000,612,PASS
+2.0,3 Decimal point,Order Details Page,Shipping,'$478.350,'$478.350,612,PASS
+2.0,3 Decimal point,Order Details Page,Handling Fee,'$6.789,'$6.789,612,PASS
+2.0,3 Decimal point,Order Details Page,Tax,'$96.124,'$96.124,612,PASS
+2.0,3 Decimal point,Order Details Page,Total,'$1279.913,'$1,279.913,612,FAIL
+5.0,2 Decimal point,Order Details Page,Subtotal,'$120.98,'$120.98,613,PASS
+5.0,2 Decimal point,Order Details Page,AddOns,'$0.90,'$0.90,613,PASS
+5.0,2 Decimal point,Order Details Page,Discount,'-$0.00,'-$0.00,613,PASS
+5.0,2 Decimal point,Order Details Page,Shipping,'$109.24,'$109.24,613,PASS
+5.0,2 Decimal point,Order Details Page,Handling Fee,'$2.25,'$2.25,613,PASS
+5.0,2 Decimal point,Order Details Page,Tax,'$6.65,'$18.95,613,FAIL
+5.0,2 Decimal point,Order Details Page,Total,'$240.02,'$252.32,613,FAIL

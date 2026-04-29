@@ -1,0 +1,7 @@
+Test Data , Parameters , Page Name , Price Type , Expected Value , Actual Value , OrderNumber, Status, Comments
+15.0,2 Decimal point,Order Details Page,Subtotal,'$9.96,'$20.00,318,FAIL
+15.0,2 Decimal point,Order Details Page,AddOns,'$0.90,'$0.90,318,PASS
+15.0,2 Decimal point,Order Details Page,Shipping,'$109.24,'$54.62,318,FAIL
+15.0,2 Decimal point,Order Details Page,Handling Fee,'$2.25,'$2.25,318,PASS
+15.0,2 Decimal point,Order Details Page,Tax,'$9.60,'$2.22,318,FAIL
+15.0,2 Decimal point,Order Details Page,Total,'$131.95,'$79.99,318,FAIL
